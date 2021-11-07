@@ -1,0 +1,44 @@
+.searchContainer{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0 4%;
+}
+
+form {
+  position: relative;
+  border-radius: 30px;
+  padding:3% 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .searchBox {
+    background-color: transparent;
+    outline: none;
+    height: 35px;
+    font-size: 15px;
+    border: 1px solid #38015c;
+    color: #38015c;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+  }
+ 
+  
+
+  .searchButton  {
+    background-color: transparent;
+    border: 1px solid #38015c;
+    color: #38015c;
+    font-weight: bold;
+    padding: 0.53rem 1.5rem;
+    cursor: pointer;
+    border-left:0
+  }
+  
+  
+  .searchButton:hover {
+    background-color: #c291e2;
+    color: white;
+  }

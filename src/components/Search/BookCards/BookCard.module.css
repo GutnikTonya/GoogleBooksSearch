@@ -1,0 +1,34 @@
+.bookList{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
+.cardContainer{
+    flex: 1 0 21%; 
+    border: 2px solid #c291e2;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    padding: 2% 0%;
+}
+
+img{
+    width:200px;
+}
+
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 12px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
